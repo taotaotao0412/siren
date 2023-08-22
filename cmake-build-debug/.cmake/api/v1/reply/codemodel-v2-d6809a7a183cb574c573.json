@@ -1,0 +1,172 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "siren/base",
+					"jsonFile" : "directory-siren.base-Debug-64bcd49cc605ff28649d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "siren/base",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "siren/net",
+					"jsonFile" : "directory-siren.net-Debug-b457c57a4ce46bb41ba4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "siren/net",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "example",
+					"childIndexes" : 
+					[
+						4
+					],
+					"jsonFile" : "directory-example-Debug-b6fca4a6d0a37c6ae6b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "example"
+				},
+				{
+					"build" : "example/pingpong",
+					"jsonFile" : "directory-example.pingpong-Debug-0207905d26c7b91f99d2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 0,
+					"source" : "example/pingpong",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "siren",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "main::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-main-Debug-c0ff57a7b462477494c1.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "pingpong_bench::@e619b98717e5c4684e32",
+					"jsonFile" : "target-pingpong_bench-Debug-4f48a31b1abeb18385d9.json",
+					"name" : "pingpong_bench",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "pingpong_client::@e619b98717e5c4684e32",
+					"jsonFile" : "target-pingpong_client-Debug-b593a6de5d334a5346cc.json",
+					"name" : "pingpong_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "pingpong_server::@e619b98717e5c4684e32",
+					"jsonFile" : "target-pingpong_server-Debug-30bbcbadb353f5357fce.json",
+					"name" : "pingpong_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "siren_base::@951ab67f45b05305301d",
+					"jsonFile" : "target-siren_base-Debug-5a77765e759a65979c9f.json",
+					"name" : "siren_base",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "siren_net::@74e22625267dae1c67bb",
+					"jsonFile" : "target-siren_net-Debug-3f719e5518dcdead6ee8.json",
+					"name" : "siren_net",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kami/workplace/siren/cmake-build-debug",
+		"source" : "/home/kami/workplace/siren"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

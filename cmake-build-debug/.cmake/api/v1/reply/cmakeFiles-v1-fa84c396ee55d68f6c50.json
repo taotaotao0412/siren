@@ -1,0 +1,237 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/kami/workplace/github/vcpkg/scripts/buildsystems/vcpkg.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "siren/base/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/kami/workplace/github/vcpkg/installed/x64-linux/share/spdlog/spdlogConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/kami/workplace/github/vcpkg/installed/x64-linux/share/spdlog/spdlogConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindThreads.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/kami/.cache/JetBrains/RemoteDev/dist/d665901452acc_CLion-2023.2/bin/cmake/linux/x64/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/kami/workplace/github/vcpkg/installed/x64-linux/share/fmt/fmt-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/kami/workplace/github/vcpkg/installed/x64-linux/share/fmt/fmt-config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/kami/workplace/github/vcpkg/installed/x64-linux/share/fmt/fmt-targets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/kami/workplace/github/vcpkg/installed/x64-linux/share/fmt/fmt-targets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/kami/workplace/github/vcpkg/installed/x64-linux/share/fmt/fmt-targets-release.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/kami/workplace/github/vcpkg/installed/x64-linux/share/spdlog/spdlogConfigTargets.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/kami/workplace/github/vcpkg/installed/x64-linux/share/spdlog/spdlogConfigTargets-debug.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/home/kami/workplace/github/vcpkg/installed/x64-linux/share/spdlog/spdlogConfigTargets-release.cmake"
+		},
+		{
+			"path" : "siren/net/CMakeLists.txt"
+		},
+		{
+			"path" : "example/CMakeLists.txt"
+		},
+		{
+			"path" : "example/pingpong/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/kami/workplace/siren/cmake-build-debug",
+		"source" : "/home/kami/workplace/siren"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}
