@@ -120,7 +120,7 @@ class TcpConnection : public noncopyable, public
 
     EventLoop* loop_;
     const string name_;
-    StateE state_;  // FIXME: use atomic variable
+    StateE state_;  
     bool reading_;
     // we don't expose those classes to client.
     std::unique_ptr<Socket> socket_;    // tcp socket
@@ -136,7 +136,7 @@ class TcpConnection : public noncopyable, public
 
     size_t highWaterMark_;  // TCP 缓冲区移除标识
     Buffer inputBuffer_;    // 读缓冲区
-    Buffer outputBuffer_;   // FIXME: use list<Buffer> as output buffer.
+    Buffer outputBuffer_;  
 };
 }  // namespace net
 

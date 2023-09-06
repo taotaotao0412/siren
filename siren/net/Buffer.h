@@ -102,10 +102,9 @@ class Buffer {
 
     void makeSpace(size_t len) {
         if (writableBytes() + prependableBytes() < len + kCheapPrepend) {
-            // FIXME: move readable data
+
             buffer_.resize(writerIndex_ + len);
         } else {
-            // move readable data to the front, make space inside buffer
             assert(kCheapPrepend < readerIndex_);
             size_t readable = readableBytes();
             std::copy(begin() + readerIndex_, begin() + writerIndex_,

@@ -121,8 +121,8 @@ void siren::net::TimerQueue::reset(const std::vector<Timer*>& expired,
             iter->restart(now);
             insert(iter);
         } else {
-            // FIXME move to a free list
-            delete iter;  // FIXME: no delete please$
+          
+            delete iter;  // no delete?$
         }
     }
 

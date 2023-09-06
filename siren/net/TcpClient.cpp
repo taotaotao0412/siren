@@ -39,7 +39,6 @@ siren::net::TcpClient::TcpClient(EventLoop *loop, const InetAddress &serverAddr,
           nextConnId_(1) {
     connector_->setNewConnectionCallback(
             std::bind(&TcpClient::newConnection, this, _1));
-    // FIXME setConnectFailedCallback
     LOG_INFO("TcpClient::TcpClient[{}] - connector {}", name_,
              fmt::ptr(get_pointer(connector_)));
 }
@@ -63,7 +62,6 @@ siren::net::TcpClient::~TcpClient() {
         }
     } else {
         connector_->stop();
-        // FIXME: HACK
         loop_->runAfter(1, std::bind(&detail::removeConnector, connector_));
     }
 }
@@ -101,8 +99,7 @@ void siren::net::TcpClient::newConnection(int sockfd) {
     string connName = name_ + buf;
 
     InetAddress localAddr(sockets::getLocalAddr(sockfd));
-    // FIXME poll with zero timeout to double confirm the new connection
-    // FIXME use make_shared if necessary
+
     TcpConnectionPtr conn(
             new TcpConnection(loop_, connName, sockfd, localAddr, peerAddr));
 
@@ -110,7 +107,7 @@ void siren::net::TcpClient::newConnection(int sockfd) {
     conn->setMessageCallback(messageCallback_);
     conn->setWriteCompleteCallback(writeCompleteCallback_);
     conn->setCloseCallback(
-            std::bind(&TcpClient::removeConnection, this, _1));  // FIXME: unsafe
+            std::bind(&TcpClient::removeConnection, this, _1)); 
     {
         std::unique_lock<std::mutex> lock(mutex_);
         connection_ = conn;
