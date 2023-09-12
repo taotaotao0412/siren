@@ -23,8 +23,19 @@ add_executable(${APP_NAME}
 )
 
 include_directories(${PROJECT_SOURCE_DIR})
-add_subdirectory(siren/base)
-add_subdirectory(siren/net)
+# add_subdirectory(siren/base)
+add_subdirectory(deps/sirenlib)
+
+  
+file(GLOB_RECURSE net_SRCS "src/*.cpp")
+add_library(siren_net ${net_SRCS} )
+target_include_directories(siren_net PUBLIC include)
+
+target_link_libraries(siren_net siren_base)
+
+
+
+# add_subdirectory(siren/net)
 add_subdirectory(example)
 target_link_libraries(${APP_NAME} PUBLIC siren_net)
   
